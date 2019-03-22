@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Trivia Game</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script
       src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
       integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
@@ -19,28 +18,21 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/style.css" />
-    <script src="assets/app.js"></script>
   </head>
 
   <body>
-    <div class="container text-center">
-        <div id="game">
-          <h1>Rick and Morty Trivia</h1>
-          <p id="remaining-time">
-            Remaining Time: <span id="timer"></span>
-          </p>
-          <p id="question"></p>
-        </div>
-        <div id="results"></div>
-        <div id="row">
-          <div id="question"</div>
-        </div>
-        <div class="row">
-            <button id="start">Start Game</button>
-            <div id="options"></div>
+    <div class="container">
+      <div class="wrapper">
+        <h1>Trivia Game</h1>
+        <div class="sub-wrapper">
+          <div class="quiz-area">
+            <div id="start">
+              <button id="start">Start Game</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="assets/app.js"></script>
   </body>
 </html>
